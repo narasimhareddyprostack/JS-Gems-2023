@@ -1,0 +1,23 @@
+<html>
+    <head>
+        <script>
+            function change_Color(){
+                document.getElementById('abc').style.backgroundColor="yellow"
+            }
+            function change_Color_blur(){
+                document.getElementById('xyz').style.backgroundColor = "red"
+            }
+            function change_Case(){
+                let name=document.getElementById('user_Name').value 
+                document.getElementById('user_Name').value =name.toUpperCase()
+            }
+        </script>
+    </head>
+    <body>
+        <form >
+                Focus Ex:<input id="abc" type="text" onfocus="change_Color()" /> <br><br><br>
+                Blur Ex:<input id="xyz"   type="text" onblur="change_Color_blur()"/> <br/><br/>
+                Blur Ex:<input id="user_Name"   type="text" onblur="change_Case()"/>
+        </form>
+    </body>
+</html>
