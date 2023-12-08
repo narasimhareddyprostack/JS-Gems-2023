@@ -998,7 +998,7 @@ let users=[{"id":1,"name":"Otes","email":"opiperley0@yahoo.co.jp","gender":"Male
 {"id":998,"name":"Rustin","email":"rcucuzzarp@mashable.com","gender":"Male","country":"China"},
 {"id":999,"name":"Kacie","email":"kcanbyrq@cornell.edu","gender":"Female","country":"Albania"}]
 
-function display_Users(){
+let display_Users=()=>{
     let no_of_Users=0
     let rows=""
     for(user of users){
